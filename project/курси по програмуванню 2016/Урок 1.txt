@@ -1,0 +1,69 @@
+            ////Методи роботи з консолью
+            //Console.WriteLine("Hello world");
+            //string a = Console.ReadLine();
+            //Console.WriteLine(a);
+            
+
+            ////Типи даних
+            //string a = "something";
+            //int b = 5;
+            //double c = 5.2;
+            //char d = 'c';
+            //bool e = true;
+            //char[] something = new char[3];
+
+            //double test = (double)b/2;
+            //Console.Write(test);
+
+
+            ////Умови
+            //if (b != 3 && b != 2)
+            //{
+            //    Console.Write("First branch");
+            //}
+            //else if (b < 2)
+            //{
+            //    Console.Write(b - 3);
+            //}
+            //else
+            //{
+            //    Console.Write("Last branch");
+            //}
+
+            //switch (b)
+            //{
+            //    case 3:
+            //        {
+            //            Console.Write(3);
+            //            break;
+            //        }
+            //    case 2:
+            //        {
+            //            Console.Write(2);
+            //            break;
+            //        }
+            //    default:
+            //        {
+            //            Console.Write("not allowed");
+            //            break;
+            //        }
+            //}
+
+
+            ////Цикли
+            //char[] something = new char[3];
+
+            //for (int i = 0; i < something.Length; i++)
+            //{
+            //    Console.WriteLine(something[i]);
+            //}
+
+            //while (true)
+            //{
+
+            //}
+
+            //do
+            //{
+
+            //} while (true);

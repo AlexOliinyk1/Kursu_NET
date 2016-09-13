@@ -1,0 +1,40 @@
+﻿1) Понеділок 19.00 // Четвер 19.00 // Неділя 12.00
+2) Встановити 
+	- Visual Studio 2015 Community
+	- Tortoise git
+	- Зареєструватися на Github
+	- Skype
+3) Література
+	- Troelsen - Pro C#
+	- Adam Freeman - Pro ASP.NET MVC 5
+	
+	
+---------------- Контакти ----------------
+serh007@gmail.com
+serh007
+
+vladwin2194@gmail.com
+vladwin2194
+
+andrey94pushkar@gmail.com
+andrey_pushkar94
+
+bartolovy@gmail.com
+tim-krasyliv
+
+scholnick2012@gmail.com
+stiklover_1
+
+max44863@mail.ru
+feralmax
+
+-------------------------------------------
+
+Дєнюжка == 500$
+
+
+
+-----
+В понеділок приходять всі, починаємо офіційно наші заняття. Поговоримо за класи,
+ методи і свойства. Напишемо стейтмашину.
+https://habrahabr.ru/post/160105/

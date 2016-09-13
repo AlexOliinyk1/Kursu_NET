@@ -1,0 +1,141 @@
+using System;
+
+namespace SimpleTypes2
+{
+    internal class Program
+    {
+        private static string[] _robotNames = new string[4];
+
+
+        private static void Main(string[] args)
+        {
+            //for (int i = 0; true; i++)
+            //{
+            //    Console.Write("vvevite chislo: ");
+            //    string aaa = Console.ReadLine();
+            //    int result;
+            //bool isInt = int.TryParse(aaa, out result);
+
+            //    if (isInt)
+            //    {
+            //        Console.WriteLine("this is Int. Result = " + result);
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("this is not int, try again enter Int");
+            //    }
+            //}
+            //Console.ReadKey();
+
+
+
+
+            //Console.WriteLine("Damansin matrix ");
+            //Console.Write("x = ");
+            //int x = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("y = ");
+            //int y = Convert.ToInt32(Console.ReadLine());
+
+
+            //int[,] matrix = new int[x, y];
+
+            ////Цыкл ввода
+            //for (int i = 0; i < x; i++)
+            //{
+            //    for (int j = 0; j < y; j++)
+            //    {
+            //        Console.Write("enter element [" + (i + 1) + "." + (j + 1) + "]: ");
+            //        matrix[i, j] = Convert.ToInt32(Console.ReadLine());
+            //    }
+            //}
+
+            ////Цыкл вывода
+            //for (int i = 0; i < x; i++)
+            //{
+            //    for (int j = 0; j < y; j++)
+            //    {
+            //        Console.Write(" " + matrix[i,j] + " ");
+            //    }
+
+            //    Console.WriteLine();
+            //}
+            //Console.ReadKey();
+            //TODO транспонована матриця і захист від дурака
+
+            //string robotName = GetRobotName(2);
+            //Console.WriteLine(robotName);
+
+            
+            _robotNames[1] = "Kolia";
+            _robotNames[3] = "Sex-robot";
+            displayRobots();
+
+
+            Console.Write("vvedit nazvanie robota: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Name robot: " + ChekNameRobot(name));
+            Console.WriteLine("robot add: "+addRobotName(name));
+
+            displayRobots();
+
+
+
+        }
+
+        public static string GetRobotName(int index)
+        {
+            string name = _robotNames[index];
+            return name;
+        }
+
+        public static bool ChekNameRobot(string name)
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                if (name == _robotNames[i])
+                {
+
+                    return true;
+                }
+
+            }
+            return false;
+        }
+
+        public static bool addRobotName(string name)
+        {
+            if (ChekNameRobot(name))
+            {
+                return false;
+            }
+            else
+            {
+                for (int i = 0; i < _robotNames.Length; i++)
+                {
+                    if (_robotNames[i] == null)
+                    {
+                        _robotNames[i] = name;
+                        Console.WriteLine("pisition " + i + "is empty");
+                        return true;
+                    }
+                    
+                }
+                return false;
+                //if(_robotNames.Length > _robotNames.Count())
+                //{
+                //    _robotNames
+                //}
+            }
+        }
+
+        public static void displayRobots()
+        {
+            Console.WriteLine("Robots names:");
+            for (int i = 0; i < _robotNames.Length; i++)
+            {
+                Console.WriteLine(i + "." + _robotNames[i]);
+            }
+        }
+    }
+}
